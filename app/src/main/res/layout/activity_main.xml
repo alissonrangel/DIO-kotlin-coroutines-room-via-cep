@@ -45,4 +45,16 @@
         app:layout_constraintTop_toBottomOf="@id/btn_search"
         tools:text="Address example" />
 
+    <TextView
+        android:id="@+id/tv_addresses"
+        style="@style/TextAppearance.MaterialComponents.Body1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_01"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_address"
+        tools:text="Addresses" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

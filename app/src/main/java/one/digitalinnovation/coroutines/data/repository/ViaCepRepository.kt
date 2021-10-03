@@ -1,9 +1,11 @@
 package one.digitalinnovation.coroutines.data.repository
 
+import androidx.room.Room
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import one.digitalinnovation.coroutines.data.api.RetrofitGenerator
 import one.digitalinnovation.coroutines.data.api.ViaCepService
+import one.digitalinnovation.coroutines.data.dao.AppDatabase
 import one.digitalinnovation.coroutines.data.model.Address
 
 class ViaCepRepository(
