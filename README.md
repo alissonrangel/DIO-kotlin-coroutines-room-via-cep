@@ -2,8 +2,8 @@
  * Simplificando Chamadas Assíncronas com Coroutines, da Digital Innovation One
 
 # ministrada pelos professores:
-    * Ezequiel Messore
-    * Pedro Henrique Silva
+ * Ezequiel Messore @EzequielMessore
+ * Pedro Henrique Silva @pedrox-hs
 
 # Projeto
     * Usando coroutines para usar a API do Via Cep
